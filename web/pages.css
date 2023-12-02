@@ -24,17 +24,24 @@ div.body {
     width: 60%;
     height: auto;
     border-radius: 10px;
-    padding: 40px;
-    background-color: rgba(255, 255, 255, 0.9);
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
     font-size: larger;
 }
 
 div.text {
     width: 100%;
-    padding-top: 50px;
     padding-bottom: 50px;
+    padding-top: 50px;
 }
 
+div.image {
+    clear: all;
+    text-align: center;
+    font-size: 13px;
+    color: gray;
+}
 h1 {
     color: white;
     font-size: xxx-large;
@@ -66,13 +73,43 @@ li a:hover {
 }
 
 img {
-    padding: 10px;
-    vertical-align: text-top;
+    padding: 20px;
+    border: none;
+    vertical-align: text-bottom;
 }
-a {
+
+dt a:hover {
+    text-decoration: underline;
+}
+
+dt a {
+    font-size: xx-large;
+    font-weight: bold;
     color: black;
     text-decoration: none;
 }
-a:hover {
+
+dd {
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 0;
+    width: 100%;
+}
+
+hr {
+    width: 100%;
+}
+
+td {
+    font-size: larger;
+}
+
+h2 a {
+    color: black;
+    text-decoration: none;
+}
+
+h2 a:hover {
     text-decoration: underline;
 }
