@@ -5,6 +5,15 @@ body {
     background-color: black;
 }
 
+div.back {
+    float: left;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: auto;
+    font-size: large;
+    padding-left: 10;
+    padding-right: 10;
+    border-radius: 25px;
+}
 div.main {
     background-color: rgba(0, 0, 0, 0.5);
     margin-left: 20%;
