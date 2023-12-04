@@ -11,7 +11,7 @@ div.main {
     margin-right: 20%;
     margin-top: 10%;
     width: 60%;
-    height: 50%;
+    height: auto;
     border-radius: 10px;
     padding-top: 5%;
 }
